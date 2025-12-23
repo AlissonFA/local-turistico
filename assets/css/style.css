@@ -6,7 +6,12 @@
 
 :root {
     font-family: 'Open Sans', sans-serif;
-    margin: 88px 80px 137px 80px;
+}
+
+body {
+    padding: 88px 80px 137px 80px;
+    margin: 0 auto;
+    background-color: #F5F4F0;
 }
 
 span {
@@ -31,6 +36,10 @@ figure img {
     margin-bottom: 24px;
 }
 
+figcaption {
+    color: #333333;
+}
+
 #descubra {
     margin: 64px 0px 64px 0px;
 }
@@ -43,16 +52,47 @@ h2 {
 p {
     font-size: 16px;
     font-weight: normal;
+    color: #333333;
 }
 
-#d1, #d2, #d3, img {
-    margin-bottom: 20px;
+#d1 img, #d2 img, #d3 img {
+    margin: 48px 0px 20px 0px;
+    /* margin-bottom: 20px; */
 }
 
 h3 {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 4px;
+}
+
+.good-for {
+    font-weight: bold;
+}
+
+ul {
+    list-style-position: inside; /* coloca o pontinho para dentro da caixa */
+    font-weight: bold;
+}
+
+.history {
+    color: #0C51A7;
+}
+
+.couples {
+    color: #591B98;
+}
+
+.families {
+    color: #E5245E;
+}
+
+.budget {
+    color: #E95E10;
+}
+
+li::marker {
+    color: #333333;
 }
 
 #phrase {
